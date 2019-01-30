@@ -1,0 +1,12 @@
+<launch>
+    <param name = "orthog_distance_threshold" type="double" value="0.24"/>
+    <param name = "min_points_per_line" type="int" value="4"/>
+    <param name = "maximum_range" type="double" value="3.25"/>
+
+    <node pkg="a3_p2" type="extract_all_lines.py" name="extract_all_lines" output="screen"/>
+
+    <node pkg="a3_p2" type="display_lines.py" name="display_lines" output="screen">
+        <param name="lines_topic" value="/extracted_lines"/>
+        <param name="vis_lines_topic" value="/visualization_lines"/>
+    </node>
+</launch>

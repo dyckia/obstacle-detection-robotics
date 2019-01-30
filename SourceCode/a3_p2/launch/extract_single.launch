@@ -1,0 +1,9 @@
+<launch>
+    <param name = "maximum_range" type="double" value="3.25"/>
+
+    <node pkg="a3_p2" type="extract_single_line.py" name="extract_single_line" output="screen"/>
+    <node pkg="a3_p2" type="display_lines.py" name="display_lines">
+        <param name="lines_topic" value="/extracted_lines"/>
+        <param name="vis_lines_topic" value="/visualization_lines"/>
+    </node>
+</launch>
