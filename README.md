@@ -2,8 +2,6 @@
 
 An implementation for extracting line segment from 2D laser range data inspired by Seeded Region Growing algorithm.
 
-Implementation was written in Python and Robot Operating System (ROS).
+Implementation was written in Python for use in Robot Operating System (ROS) environment.
 
-[Video demo](https://youtu.be/yNN9NRioOBc)
-
-Video Credit: H. Gao, X. Zhang, Y. Fang and J. Yuan.
+[Demo in Jupyter Notebook](https://github.com/dyckia/Wall-Extraction-ROS/blob/master/demo.ipynb)
