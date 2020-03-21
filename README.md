@@ -1,4 +1,4 @@
-# Obstacle/Wall Extraction for Laser Sensor Robots
+# Obstacle/wall detection for Laser Sensor Robots
 
 An implementation for extracting line segment from 2D laser range data inspired by Seeded Region Growing algorithm.
 
